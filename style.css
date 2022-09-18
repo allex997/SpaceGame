@@ -1,0 +1,18 @@
+﻿#text {
+ font-size: 300%;
+ color: #FFFFFF;
+ position: relative;
+ margin-left: 10%;
+ }
+
+#block {
+ position: relative;
+ margin-top: 40px;
+// margin: 0 auto;
+ width: 70%;
+ height: 60px;
+ background: #008000;
+ }
+#lives {
+
+}

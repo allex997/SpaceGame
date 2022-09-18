@@ -1,0 +1,23 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+	<title>Страница 1</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<script src="script3.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<?php include("mainphp");?>
+  </head>
+ <body onload="T['Set']();startGame();">
+	
+		<input type="button" onclick="T['Pause']()" value="Pause/Go">
+        <input type="button" onclick="T['BackTimer']();" value="Start">
+	<div id="block">
+		<span id="text">Осталось: <span id="time">04:00</span> | Жизней: 
+		<span id="lives"></span>	
+		
+		</span></div>
+	
+	
+
+</body>
+</html>
